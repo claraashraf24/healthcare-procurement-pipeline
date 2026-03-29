@@ -15,10 +15,10 @@ A regional hospital network wants visibility into its procurement spend, who the
 
 | Notebook | Description |
 |---|---|
-| `01_bronze_ingestion.py` | Generates mock data and writes Bronze Delta tables |
-| `02_silver_processing.py` | Cleans Bronze tables and writes Silver Delta tables |
-| `03_gold_aggregation.py` | Joins and aggregates Silver into Gold tables |
-| `04_eda_analysis.py` | EDA, KPI summary, and dashboard visualizations |
+| `01_bronze_ingestion.ipynb` | Generates mock data and writes Bronze Delta tables |
+| `02_silver_processing.ipynb` | Cleans Bronze tables and writes Silver Delta tables |
+| `03_gold_aggregation.ipynb` | Joins and aggregates Silver into Gold tables |
+| `04_eda_analysis.ipynb` | EDA, KPI summary, and dashboard visualizations |
 
 Run notebooks in order. Each notebook depends on the previous one completing successfully.
 
