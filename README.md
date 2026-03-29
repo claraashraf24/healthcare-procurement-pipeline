@@ -28,7 +28,7 @@ Run notebooks in order. Each notebook depends on the previous one completing suc
 
 1. Import all notebooks into your Databricks workspace
 2. Attach to a cluster running **Databricks Runtime 11.3 LTS or above**
-3. Run `01_bronze_ingestion.py` first — this creates the catalog and schema
+3. Run `01_bronze_ingestion.ipynb` first, this creates the catalog and schema
 4. Run remaining notebooks in sequence
 
 **Catalog:** `healthcare_procurement`  
